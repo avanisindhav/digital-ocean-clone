@@ -1,0 +1,17 @@
+@import "../../styles/variable";
+
+.ant-btn {
+  height: auto;
+  line-height: 24px;
+  padding: 8px 24px;
+  &-primary {
+    padding: 8px 24px;
+  }
+  &-text {
+    padding: 8px 24px;
+    &:not(:disabled):hover,
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

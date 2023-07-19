@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import "./styles/main.scss";
 import { ConfigProvider } from "antd";
 import Header from "./components/Header/Header";
 import theme from "./theme/Theme";
