@@ -7,14 +7,12 @@ import Button from "../Button/Button";
 const Header = () => {
   return (
     <header className="container">
-      {/* <div className="container"> */}
       <Logo />
       <HeaderMenu />
       <div className="header_right">
         <Button type="text" value="Log in" />
         <Button type="primary" value="Sign up" />
       </div>
-      {/* </div> */}
     </header>
   );
 };
