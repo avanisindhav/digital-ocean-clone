@@ -1,6 +1,7 @@
 import React from "react";
-import { Collapse } from "antd";
+import { Collapse, Space } from "antd";
 import Checkbox from "../Checkbox/Checkbox";
+import "./Filters.scss";
 
 const items = [
   {
@@ -8,9 +9,9 @@ const items = [
     label: "Partner Profile",
     children: (
       <div className="filter_panel">
-        <div className="">
+        <Space direction="vertical">
           <Checkbox value={"BlockChain"} />
-        </div>
+        </Space>
       </div>
     ),
   },
@@ -19,7 +20,7 @@ const items = [
     label: "Services",
     children: (
       <div className="filter_panel">
-        <div className="">
+        <Space direction="vertical">
           <Checkbox value={"BlockChain"} />
           <Checkbox value={"Cloud Aggregator"} />
           <Checkbox value={"Cloud Management"} />
@@ -27,7 +28,7 @@ const items = [
           <Checkbox value={"Digital Marketing"} />
           <Checkbox value={"E-Commerce"} />
           <Checkbox value={"Kafka"} />
-        </div>
+        </Space>
       </div>
     ),
   },
@@ -36,7 +37,7 @@ const items = [
     label: "Regions",
     children: (
       <div className="filter_panel">
-        <div className="">
+        <Space direction="vertical">
           <Checkbox value={"Africa"} />
           <Checkbox value={"Australia"} />
           <Checkbox value={"Canada"} />
@@ -44,7 +45,7 @@ const items = [
           <Checkbox value={"Europe - South"} />
           <Checkbox value={"Europe - North"} />
           <Checkbox value={"Europe - West"} />
-        </div>
+        </Space>
       </div>
     ),
   },
@@ -53,10 +54,10 @@ const items = [
     label: "Business Type",
     children: (
       <div className="filter_panel">
-        <div className="">
+        <Space direction="vertical">
           <Checkbox value={"Startup"} />
           <Checkbox value={"Enterprise"} />
-        </div>
+        </Space>
       </div>
     ),
   },

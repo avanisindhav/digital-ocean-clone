@@ -1,5 +1,6 @@
 import React from "react";
 import { Checkbox as AntdCheckbox } from "antd";
+import "./Checkbox.scss";
 
 const onChange = (e) => {
   console.log(`checkbox-${e.target.checked}`);
