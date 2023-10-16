@@ -15,11 +15,16 @@
         color: $text-secondary;
         padding: 16px 0;
       }
-
-      > .ant-collapse-content {
-        > .ant-collapse-content-box {
-          padding: 16px 0;
+      .ant-collapse-header-text {
+        span {
+          vertical-align: middle;
         }
+      }
+    }
+
+    > .ant-collapse-content {
+      > .ant-collapse-content-box {
+        padding: 16px 0;
       }
     }
   }

@@ -6,7 +6,12 @@ import "./Filters.scss";
 const items = [
   {
     key: "1",
-    label: "Partner Profile",
+    label: (
+      <>
+        <span>Partner Profile </span>
+        <span className="badge badge-primary">3</span>
+      </>
+    ),
     children: (
       <div className="filter_panel">
         <Space direction="vertical">
