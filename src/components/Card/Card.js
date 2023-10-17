@@ -10,11 +10,11 @@ const Card = ({ value, ...rest }) => {
     <div className="card">
       <div className="card_img">
         <img src={images.card_thumb} alt="Card Thumb Image..." />
-        <Tags value="Staff picked" className="tag tag-blue" />
+        <Tags value="Staff picked" className="tag-blue small" />
       </div>
       <div className="card_img_caption">
         <Avatar src={images.avatar_img} size={56} />
-        <Tags value="PaaS vendor" className="tag tag-grey" />
+        <Tags value="PaaS vendor" className="tag-grey small" />
       </div>
       <h3>Impekable</h3>
       <p>

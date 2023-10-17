@@ -9,23 +9,23 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <div className="container">
+      <div className="container py-48">
         <Row gutter={62}>
           <Col span={6}>
             <LeftSidebar />
           </Col>
           <Col span={18}>
             <div className="filter-tags">
-              <Tags value="Blockchain" closable={true} className="tag grey" />
+              <Tags value="Blockchain" closable={true} className="tag-grey" />
               <Tags
                 value="Cloud Aggregator"
                 closable={true}
-                className="tag grey"
+                className="tag-grey"
               />
               <Tags
                 value="Cloud Management"
                 closable={true}
-                className="tag grey"
+                className="tag-grey"
               />
             </div>
             <div className="">
