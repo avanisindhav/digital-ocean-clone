@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner/Banner";
 import LeftSidebar from "../components/LeftSidebar/LeftSidebar";
-import { Row, Col } from "antd";
+import { Row, Col, Space } from "antd";
 import Tags from "../components/Tags/Tags";
 import Card from "../components/Card/Card";
 
@@ -15,7 +15,7 @@ const Home = () => {
             <LeftSidebar />
           </Col>
           <Col span={18}>
-            <div className="filter-tags">
+            <Space size={[0, 4]} className="filter-tags">
               <Tags value="Blockchain" closable={true} className="tag-grey" />
               <Tags
                 value="Cloud Aggregator"
@@ -27,7 +27,7 @@ const Home = () => {
                 closable={true}
                 className="tag-grey"
               />
-            </div>
+            </Space>
             <div className="">
               <Row gutter={16}>
                 <Col span={8}>
