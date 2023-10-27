@@ -29,7 +29,7 @@ const Home = () => {
               />
             </Space>
             <div className="">
-              <Row gutter={16}>
+              <Row gutter={24}>
                 <Col span={8}>
                   <Card />
                 </Col>

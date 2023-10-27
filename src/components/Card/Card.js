@@ -16,18 +16,22 @@ const Card = ({ value, ...rest }) => {
         <Avatar src={images.avatar_img} size={56} />
         <Tags value="PaaS vendor" className="tag-grey small" />
       </div>
-      <h3>Impekable</h3>
-      <p>
-        Impekable is an award winning UX design and software development agency,
-        born in the San Francis...
-      </p>
+      <div className="card_content">
+        <h3>Impekable</h3>
+        <p>
+          Impekable is an award winning UX design and software development
+          agency, born in the San Francis...
+        </p>
+      </div>
       <div className="card_bottom">
         <h4>Specialist</h4>
         <p>
           Analytics, Big data, Financial, Developer,  Digital Marketing, and 3
           more
         </p>
-        <Link href="#">View More</Link>
+        <div className="link">
+          <Link href="#">View More</Link>
+        </div>
       </div>
     </div>
   );
